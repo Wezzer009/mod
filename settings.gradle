@@ -14,11 +14,7 @@ pluginManagement {
 }
 
 dependencyResolutionManagement {
-    repositoriesMode.set(RepositoriesMode.PREFER_SETTINGS)
-    repositories {
-        maven { url = 'https://maven.fabricmc.net/' }
-        mavenCentral()
-    }
+    repositoriesMode.set(RepositoriesMode.PREFER_PROJECT)
 }
 
 rootProject.name = 'QuartzClimb'
