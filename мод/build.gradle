@@ -33,7 +33,7 @@ processResources {
     }
 }
 
-def targetJava = 25
+def targetJava = 21
 tasks.withType(JavaCompile).configureEach {
     options.release = targetJava
 }
